@@ -7,25 +7,25 @@
     <body>
       <div id="calculator">
         <input id="display" readonly>
-        <button class="clear">C</button>
-        <button class="mix">+/-</button>
-        <button class="mod">%</button>
-        <button class="div">/</button>
-        <button class="seven">7</button>
-        <button class="eight">8</button>
-        <button class="nine">9</button>
-        <button class="mult">*</button>
-        <button class="four">4</button>
-        <button class="five">5</button>
-        <button class="six">6</button>
-        <button class="sub">-</button>
-        <button class="one">1</button>
-        <button class="two">2</button>
-        <button class="three">3</button>
-        <button class="add">+</button>
-        <button class="zero">0</button>
-        <button class="dot">.</button>
-        <button class="equal">=</button>
+        <button onclick = "clearDisplay ()" class="clear">AC</button>
+        <button onclick = "appendToDisplay('+/-')"class="mix">+/-</button>
+        <button onclick = "appendToDisplay('%')"class="mod">%</button>
+        <button onclick = "appendToDisplay('/')"class="div">/</button>
+        <button onclick = "appendToDisplay('7')"class="seven">7</button>
+        <button onclick = "appendToDisplay('8')"class="eight">8</button>
+        <button onclick = "appendToDisplay('9')"class="nine">9</button>
+        <button onclick = "appendToDisplay('*')"class="mult">*</button>
+        <button onclick = "appendToDisplay('4')"class="four">4</button>
+        <button onclick = "appendToDisplay('5')"class="five">5</button>
+        <button onclick = "appendToDisplay('6')" class="six">6</button>
+        <button onclick = "appendToDisplay('-')" class="sub">-</button>
+        <button onclick = "appendToDisplay('1')"class="one">1</button>
+        <button onclick = "appendToDisplay('2')"class="two">2</button>
+        <button onclick = "appendToDisplay('3')"class="three">3</button>
+        <button onclick = "appendToDisplay('+')"class="add">+</button>
+        <button onclick = "appendToDisplay('0')"class="zero">0</button>
+        <button onclick = "appendToDisplay('.')"class="dot">.</button>
+        <button onclick = "calculate()" class="equal">=</button>
       </div>  
         <script src="calc.js"></script>
     </body>
