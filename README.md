@@ -15,6 +15,9 @@ This is a simple  clone calculator for basic calculations.It accepts inputs and 
 - css
 - javascript
 
+  ## Screenshot 
 
+
+file:///home/adongo/Pictures/Screenshots/Screenshot%20from%202024-06-06%2018-16-14.png
 
 
