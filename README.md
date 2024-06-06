@@ -1,15 +1,15 @@
-#Calculator
+# Calculator
 
 This is a simple calculator for basic calculations.
 
-##Features
+## Features
 
 -Addition
 -Multiplication
 -Subtraction
 -Division
 
-##Languages used
+## Languages used
 
 -html
 -css
